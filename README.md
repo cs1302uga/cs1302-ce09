@@ -74,25 +74,34 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed.
 
-1. 
+1. Check the status of your local copy of the `cs1302-ce08` repository using the following
+   command:
 
-# On branch master
-# Untracked files:
-#   (use "git add <file>..." to include in what will be committed)
-#
-#	src/cs1302/shapes/Rectangle.java
-nothing added to commit but untracked files present (use "git add" to track)
-
-
-   Use the following commands to tell Git to add and commit the changes that you made to your
-   source code to your local copy of the repository for this exercise.
-   Modify the string associated with the `-m` (message) option to give a brief, one sentence 
-   description of the changes you made to the source code.
-   
    ```
-   $ git add src
-   $ git commit -m "added SomeClass that represents SOMETHING and implements Drivable."
+   $ git status
    ```
+
+   You should see a message similar to the following:
+
+   ```
+   # On branch master
+   # Untracked files:
+   #   (use "git add <file>..." to include in what will be committed)
+   #
+   #	src/cs1302/shapes/Rectangle.java
+   nothing added to commit but untracked files present (use "git add" to track)
+   ```
+
+   As the message suggests, your `Rectangle.java` file is untracked. To have Git track
+   changes on this file, follow the instructions in the message. 
+
+1. Now, use Git to commit the changes that you made to your source code to your local
+   copy of the repository. Remember to use the `-m` (message) option to give a brief,
+   one sentence description of the changes you made to the source code. If you forget
+   the `-m` option, then you Git will likely throw you into the Vi program to enter
+   a message! 😱 Don't be scared if this happens to you... Press `i`, type your sentence,
+   the press the intuitive sequence of keys: `ESC`, `:`, `wq!`, followed by return.
+   Next time, remember the `-m` option. 
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
