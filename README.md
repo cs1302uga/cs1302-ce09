@@ -76,6 +76,13 @@ command depends on your present working directory), then please note that contex
 
 1. 
 
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	src/cs1302/shapes/Rectangle.java
+nothing added to commit but untracked files present (use "git add" to track)
+
 
    Use the following commands to tell Git to add and commit the changes that you made to your
    source code to your local copy of the repository for this exercise.
