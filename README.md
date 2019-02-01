@@ -24,17 +24,17 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce08`:
+1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce09`:
 
    ```
-   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce08.git
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce09.git
    ```
 
 1. **[ALL GROUP MEMBERS]**
    If you did not setup your Git username and email on Nike when working on `cs1302-ce07`,
    then please revist that exercise and follow the instructions presented there.
 
-1. Change into the `cs1302-ce08` directory that was just created and look around. There should be
+1. Change into the `cs1302-ce09` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
    
