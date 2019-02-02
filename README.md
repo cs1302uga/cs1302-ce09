@@ -1,7 +1,7 @@
 # cs1302-ce09 More Shapes
 
-> Quid adhuc laborat?
-> **--Most Latin Teachers**
+> 十人十色 (Ten People, Ten Colors)
+> **--Japanese Idiom**
 
 This class exercise explores how to utilize inheritance in Java to create new classes
 that are directly based on existing ones, with an emphasis on code reuse and design
