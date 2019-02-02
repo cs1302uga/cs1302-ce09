@@ -63,8 +63,8 @@ command depends on your present working directory), then please note that contex
 
 1. Create and document a `Rectangle` class in the `cs1302.shapes` package. It should extend
    the `Shapes` class. In addition to including relevant instance variables for describing
-   a rectangle, it should provide overrides for the `getArea` and `getPerimeter` methods.
-   Additionally, include getter methods for the instance variables. 
+   a rectangle, it should provide a constructor and a set of overrides for the `getArea` and
+   `getPerimeter` methods. Additionally, include getter methods for the instance variables. 
 
 1. Compile your `Rectangle` class. If you encounter any compililation errors:
 
@@ -100,14 +100,61 @@ command depends on your present working directory), then please note that contex
    one sentence description of the changes you made to the source code. If you forget
    the `-m` option, then you Git will likely throw you into the Vi program to enter
    a message! 😱 Don't be scared if this happens to you... Press `i`, type your sentence,
-   the press the intuitive sequence of keys: `ESC`, `:`, `wq!`, followed by return.
+   then press the intuitive sequence of keys: `ESC`, `:`, `wq!`, followed by return.
    Next time, remember the `-m` option. 
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
    Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link. Write
-   the full URL of your API documentation website in your notes.
+   the full URL for the `Rectangle` class in your notes.
 
+**CHECKPOINT**
 
+1. Create and document a `Square` class in the `cs1302.shapes` package. It should extend
+   your `Rectangle` class. You shouldn't need to introduce any new instance variables,
+   but you should include a constructor that makes proper use of the `super` keyword.
 
+1. Compile your `Square` class. If you encounter any compililation errors:
+
+   1. Write the error down in your notes;
+   1. Fix the error in your code;
+   1. Recompile; then
+   1. Note the fix in your notes.
+   1. Repeat as needed. 
+
+1. Tell Git to track changes made to your `Square.java` file, then commit the changes
+   to your local copy of the repository. Be sure to include a good log message. 
+
+1. Generate the API documentation website for all of the code in the `cs1302` package
+   into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
+   Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link. Write
+   the full URL for the `Square` class in your notes.
+
+1. Create and document a `ShapeDriver` (driver) class in the `cs1302.shapes` package. Inside of the `main`
+   method do the following:
+
+   1. Create a `Shape` array, and populate it with two objects of each class. Something like the
+      following (will need to be modified):
+
+      ```java
+      Shape shapes = new Shape[] {
+          new Ellipse(1.1, 2.5), 
+          new Circle(1.5)
+      };
+      ```
+      
+   1. Loop over the array. For each element in the array, print the name of the shape using the
+      `getName` method as well as the return values of the `getArea` and `getPerimeter` methods.
+
+1. Compile the `ShapeDriver` class and run it. 
+   Is the output what you expected?
+
+1. Tell Git to track changes made to your `ShapeDriver.java` file, then commit the changes
+   to your local copy of the repository. Be sure to include a good log message. 
+
+1. Regenerate the API documentation website for all of the code in the `cs1302` package.
+   What is the direct URL to the API documentation for the class that you wrote
+   for this checkpoint?
+
+1. Use Git to view your commit log.
 
