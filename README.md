@@ -105,7 +105,7 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link. Write
+   Host the documentation on Nike using `cs1302-ce09-doc` as the name for your symbolic link. Write
    the full URL for the `Rectangle` class in your notes.
 
 **CHECKPOINT**
