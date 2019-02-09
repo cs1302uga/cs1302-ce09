@@ -122,7 +122,7 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed. 
    
-1. Use `wc` to determine check some coder stats! 
+1. Use `wc` to check some coder stats! 
 
    1. How many lines are in `Rectangle.java`?
    1. How many lines are in `Square.java`?
