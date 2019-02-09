@@ -122,10 +122,16 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed. 
    
-1. Use `wc` to check some coder stats! 
+1. You just utilized inheritance to reduce the amount of code needed to create a new class! Your
+   `Square` class has everything a `Square` has. How much new code did you need to write? 
+   Use `wc` to check your coder stats! 
 
    1. How many lines are in `Rectangle.java`?
    1. How many lines are in `Square.java`?
+   
+   Contrary to popular belief, less lines of code is usually better. Also, if you need to make a
+   change to a `Rectangle` method, then this change will propogate throughout all descendants
+   in your heirarchy that don't explicitly perform an override of the relevant method.
 
 1. Tell Git to track changes made to your `Square.java` file, then commit the changes
    to your local copy of the repository. Be sure to include a good log message. 
