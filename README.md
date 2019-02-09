@@ -121,6 +121,11 @@ command depends on your present working directory), then please note that contex
    1. Recompile; then
    1. Note the fix in your notes.
    1. Repeat as needed. 
+   
+1. Use `wc` to determine check some coder stats! 
+
+   1. How many lines are in `Rectangle.java`?
+   1. How many lines are in `Square.java`?
 
 1. Tell Git to track changes made to your `Square.java` file, then commit the changes
    to your local copy of the repository. Be sure to include a good log message. 
