@@ -155,7 +155,8 @@ command depends on your present working directory), then please note that contex
       ```
       
    1. Loop over the array. For each element in the array, print the name of the shape using the
-      `getName` method as well as the return values of the `getArea` and `getPerimeter` methods.
+      `getName` method as well as the return values of the `getArea` and `getPerimeter` methods. Which
+      classes explicitly define `getArea` and `getPerimeter`?
 
 1. Compile the `ShapeDriver` class and run it. 
    Is the output what you expected?
