@@ -156,7 +156,7 @@ command depends on your present working directory), then please note that contex
       following (will need to be modified):
 
       ```java
-      Shape shapes = new Shape[] {
+      Shape[] shapes = new Shape[] {
           new Ellipse(1.1, 2.5), 
           new Circle(1.5)
       };
