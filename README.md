@@ -62,7 +62,7 @@ command depends on your present working directory), then please note that contex
 **CHECKPOINT**
 
 1. Create and document a `Rectangle` class in the `cs1302.shapes` package. It should extend
-   the `Shapes` class. In addition to including relevant instance variables for describing
+   the `Shape` class. In addition to including relevant instance variables for describing
    a rectangle, it should provide a constructor and a set of overrides for the `getArea` and
    `getPerimeter` methods. Additionally, include getter methods for the instance variables. 
 
