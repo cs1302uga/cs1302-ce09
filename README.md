@@ -74,7 +74,7 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed.
 
-1. Check the status of your local copy of the `cs1302-ce08` repository using the following
+1. Check the status of your local copy of the repository using the following
    command:
 
    ```
@@ -101,7 +101,15 @@ command depends on your present working directory), then please note that contex
    the `-m` option, then you Git will likely throw you into the Vi program to enter
    a message! 😱 Don't be scared if this happens to you... Press `i`, type your sentence,
    then press the intuitive sequence of keys: `ESC`, `:`, `wq!`, followed by return.
-   Next time, remember the `-m` option. 
+   Next time, remember the `-m` option.
+   
+   **NOTE:** If you don't want to be inadvertantly thrown into Vi in the future, then
+   add the following line to your `~/.bash_profile` to set the default editor to Emacs
+   (changes take effect on next login):
+   
+   ```
+   export EDITOR="emacs -nw"
+   ```
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
