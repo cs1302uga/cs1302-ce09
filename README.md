@@ -9,8 +9,16 @@ implications. It also revists how to commit and view changes to a local Git repo
 
 ## Prerequisite Knowledge
 
-* Inheritance and polymorphism in Java.
-* UML Class Diagrams
+* CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
+* CSCI 1302 [UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
+
+## Course-Specific Learning Outcomes -- FINISH UPDATING
+
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+* **LO4.c:** (Partial) Design, create and use inheritance relationships in a software solution.
+* **LO4.d:** Utilize inheritance-based polymorphism in a software solution.
 
 ## Questions
 
@@ -46,6 +54,8 @@ command depends on your present working directory), then please note that contex
 
 1. In your notes, draw a complete, proper UML diagram for the three classes contained in the
    starter code. **You might need to devote an entire page to this. We recommend using a pencil.** 
+   Refer to the [CSCI 1302 UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
+   if needed.
    Specifically, each individual class diagram should contain:
 
    * Class name;
@@ -54,9 +64,9 @@ command depends on your present working directory), then please note that contex
    * If needed, a solid generalization arrow (`extends`) to a parent class; and
    * If needed, a dashed generalization arrow (`implements`) to an interface.
 
-   In a class diagram, do not list inherited members unless they are explicitly overriden.
-   Where applicable, be sure to include visibility modifiers (e.g., `+`, `#`, `~`, `-`) and
-   type / return type information. Also, remember that generalization arrows have a triangle
+   In a class diagram, do not list inherited members (methods or attributes) unless they are 
+   explicitly overriden. Be sure to include visibility modifiers (e.g., `+`, `#`, `~`, `-`) and
+   type / return type information where needed. Also, remember that generalization arrows have a triangle
    arrow head, which differentiates them from dependency and aggregration associations.
 
 **CHECKPOINT**
@@ -74,8 +84,8 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed.
 
-1. Check the status of your local copy of the repository using the following
-   command:
+1. Since we've added a new class to our project, it's a good idea to save our work using Git.
+   Check the status of your local copy of the repository using the following command:
 
    ```
    $ git status
@@ -92,8 +102,9 @@ command depends on your present working directory), then please note that contex
    nothing added to commit but untracked files present (use "git add" to track)
    ```
 
-   As the message suggests, your `Rectangle.java` file is untracked. To have Git track
-   changes on this file, follow the instructions in the message. 
+   As the message suggests, your `Rectangle.java` file is untracked. This is because it is a
+   new file that is not currently tracked by Git. To have Git track changes on this file, 
+   use the `git add` command as described in the message. 
 
 1. Now, use Git to commit the changes that you made to your source code to your local
    copy of the repository. Remember to use the `-m` (message) option to give a brief,
@@ -137,7 +148,7 @@ command depends on your present working directory), then please note that contex
    1. How many lines are in `Rectangle.java`?
    1. How many lines are in `Square.java`?
    
-   Contrary to popular belief, less lines of code is usually better. Also, if you need to make a
+   Contrary to popular belief, fewer lines of code is usually better. Also, if you need to make a
    change to a `Rectangle` method, then this change will propogate throughout all descendants
    in your heirarchy that don't explicitly perform an override of the relevant method.
 
@@ -146,13 +157,15 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link. Write
+   Host the documentation on Nike using `cs1302-ce09-doc` as the name for your symbolic link. Write
    the full URL for the `Square` class in your notes.
+
+**CHECKPOINT**
 
 1. Create and document a `ShapeDriver` (driver) class in the `cs1302.shapes` package. Inside of the `main`
    method do the following:
 
-   1. Create a `Shape` array, and populate it with two objects of each class. Something like the
+   1. Create a `Shape` array, and populate it with two objects of **each** class (so, 8 total). Something like the
       following (will need to be modified):
 
       ```java
@@ -164,7 +177,7 @@ command depends on your present working directory), then please note that contex
       
    1. Loop over the array. For each element in the array, print the name of the shape using the
       `getName` method as well as the return values of the `getArea` and `getPerimeter` methods. Which
-      classes explicitly define `getArea` and `getPerimeter`?
+      classes do not explicitly define `getArea` and `getPerimeter`?
 
 1. Compile the `ShapeDriver` class and run it. 
    Is the output what you expected?
