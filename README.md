@@ -1,5 +1,7 @@
 # cs1302-ce09 More Shapes
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > 十人十色 (Ten People, Ten Colors)
 > **--Japanese Idiom**
 
