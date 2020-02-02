@@ -1,6 +1,8 @@
 # cs1302-ce09 More Shapes
 
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
+![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
 
 > 十人十色 (Ten People, Ten Colors)
 > **--Japanese Idiom**
@@ -86,6 +88,8 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed.
 
+1. Make sure that all Java files pass the `checkstyle` audit. 
+   
 1. Since we've added a new class to our project, it's a good idea to save our work using Git.
    Check the status of your local copy of the repository using the following command:
 
@@ -142,7 +146,9 @@ command depends on your present working directory), then please note that contex
    1. Recompile; then
    1. Note the fix in your notes.
    1. Repeat as needed. 
-   
+
+1. Make sure that all Java files pass the `checkstyle` audit. 
+
 1. You just utilized inheritance to reduce the amount of code needed to create a new class! Your
    `Square` class has everything a `Square` has. How much new code did you need to write? 
    Use `wc` to check your coder stats! 
@@ -181,8 +187,9 @@ command depends on your present working directory), then please note that contex
       `getName` method as well as the return values of the `getArea` and `getPerimeter` methods. Which
       classes do not explicitly define `getArea` and `getPerimeter`?
 
-1. Compile the `ShapeDriver` class and run it. 
-   Is the output what you expected?
+1. Make sure that all Java files pass the `checkstyle` audit. 
+
+1. Compile the `ShapeDriver` class and run it. Is the output what you expected?
 
 1. Tell Git to track changes made to your `ShapeDriver.java` file, then commit the changes
    to your local copy of the repository. Be sure to include a good log message. 
