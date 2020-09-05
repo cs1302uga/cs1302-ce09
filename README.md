@@ -1,7 +1,6 @@
 # cs1302-ce09 More Shapes
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
-![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 > 十人十色 (Ten People, Ten Colors)
 > **--Japanese Idiom**
@@ -12,8 +11,8 @@ implications. It also revisits how to commit and view changes to a local Git rep
 
 ## Prerequisite Knowledge
 
-* CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
-* CSCI 1302 [UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
+* [CSCI 1302 Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
+* [CSCI 1302 UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
 
 ## Course-Specific Learning Outcomes
 
@@ -26,22 +25,24 @@ set of requirements.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce09`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce09`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce09.git
    ```
 
 1. **[ALL GROUP MEMBERS]**
-   If you did not setup your Git username and email on Nike when working on `cs1302-ce07`,
+   If you did not setup your Git username and email on Odin when working on `cs1302-ce07`,
    then please revist that exercise and follow the instructions presented there.
 
 1. Change into the `cs1302-ce09` directory that was just created and look around. There should be
@@ -72,7 +73,13 @@ command depends on your present working directory), then please note that contex
    type / return type information where needed. Also, remember that generalization arrows have a triangle
    arrow head, which differentiates them from dependency and aggregration associations.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Create and document a `Rectangle` class in the `cs1302.shapes` package. It should extend
    the `Shape` class. In addition to including relevant instance variables for describing
@@ -129,10 +136,16 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce09-doc` as the name for your symbolic link. Write
+   Host the documentation on Odin using `cs1302-ce09-doc` as the name for your symbolic link. Write
    the full URL for the `Rectangle` class in your notes.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
 
 1. Create and document a `Square` class in the `cs1302.shapes` package. It should extend
    your `Rectangle` class. You shouldn't need to introduce any new instance variables,
@@ -164,10 +177,16 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce09-doc` as the name for your symbolic link. Write
+   Host the documentation on Odin using `cs1302-ce09-doc` as the name for your symbolic link. Write
    the full URL for the `Square` class in your notes.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 4 Steps
 
 1. Create and document a `ShapeDriver` (driver) class in the `cs1302.shapes` package. Inside of the `main`
    method do the following:
@@ -199,7 +218,51 @@ command depends on your present working directory), then please note that contex
 
 1. Use Git to view your commit log.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-4-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce07`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce06`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce07 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
