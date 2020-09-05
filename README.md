@@ -228,7 +228,7 @@ command depends on your present working directory), then please note that contex
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce07`
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce09`
    directory with the following information.
 
    1. Your name and UGA ID number;
@@ -243,14 +243,14 @@ command depends on your present working directory), then please note that contex
    3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
    ```
 
-1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce06`). If you would like
+1. Change directories to the parent of `cs1302-ce09` (e.g., `cd ..` from `cs1302-ce09`). If you would like
    to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
    We won't repeat those steps here and you can view them as optional.
    
 1. Use the `submit` command to submit this exercise to `csci-1302`:
    
    ```
-   $ submit cs1302-ce07 csci-1302
+   $ submit cs1302-ce09 csci-1302
    ```
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
