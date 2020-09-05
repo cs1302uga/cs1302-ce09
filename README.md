@@ -240,7 +240,7 @@ command depends on your present working directory), then please note that contex
    ```
    1. Sally Smith (811-000-999)
    2. Collaborators: Joe Allen, Stacie Mack
-   3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce09-doc
    ```
 
 1. Change directories to the parent of `cs1302-ce09` (e.g., `cd ..` from `cs1302-ce09`). If you would like
